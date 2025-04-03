@@ -32,6 +32,8 @@ class _Deadline1State extends State<Deadline1> {
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
+            
+
             SizedBox(height: 50),
             SizedBox(
               width: double.infinity,
@@ -83,8 +85,8 @@ class _Deadline1State extends State<Deadline1> {
                           natija =
                               double.parse(textfield1.text) +
                               double.parse(textfield2.text);
-                          textfield1.clear();
-                          textfield2.clear();
+                          // textfield1.clear();
+                          // textfield2.clear();
                           ynatija = natija.toString();
                         });
                       }
@@ -107,8 +109,8 @@ class _Deadline1State extends State<Deadline1> {
                           natija =
                               double.parse(textfield1.text) -
                               double.parse(textfield2.text);
-                          textfield1.clear();
-                          textfield2.clear();
+                          // textfield1.clear();
+                          // textfield2.clear();
                           ynatija = natija.toString();
                         });
                       }
@@ -131,8 +133,8 @@ class _Deadline1State extends State<Deadline1> {
                           natija =
                               double.parse(textfield1.text) *
                               double.parse(textfield2.text);
-                          textfield1.clear();
-                          textfield2.clear();
+                          // textfield1.clear();
+                          // textfield2.clear();
                           ynatija = natija.toString();
                         });
                       }
@@ -155,8 +157,8 @@ class _Deadline1State extends State<Deadline1> {
                           natija =
                               double.parse(textfield1.text) /
                               double.parse(textfield2.text);
-                          textfield1.clear();
-                          textfield2.clear();
+                          // textfield1.clear();
+                          // textfield2.clear();
                           ynatija = natija.toString();
                         });
                       }
